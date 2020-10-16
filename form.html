@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>Formulário</title>
+        <meta charset= "utf-8">
+        <link href="./style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="header_h1"> 
+                Research Study Screener
+            </h1>
+        </div>
+        <div class="paragraph"> 
+            <p class="paragraph_p">
+                Thank you for your interest in participating in user research at Local. This screener will determine whether or not you are eligible to participate in an upcoming study which we will be conducting in Local's office. 
+            </p>
+            <p>
+                Thank you, <br>
+                User Research Team at Local
+            </p>
+        </div>
+        <form>
+            <div class="line">
+                <p>
+                    <div>
+                        <label class="left" for=”nome” > First Name </label>
+                    </div>
+                    <div>
+                        <input class="right" id=”nome” type=”text” name=”nome” />   
+                    </div>            
+                </p>
+            </div>
+            <div class="line" >
+                    <p>
+                        <div>
+                            <label class="left" for="sobrenome" > Last Name </label>
+                        </div>
+                        <div>
+                            <input class="right" id="sobrenome" type=”text” name=”sobrenome” />                        
+                        </div>
+                    </p>
+            </div>
+            <div class="line">
+                    <p>
+                        <div>
+                            <label class="left" for="telefone" > Phone Number </label>
+                        </div>
+                        <div>
+                            <input class="right" id="telefone" type=”text” name=”telefone” />                        
+                        </div>
+                    </p>
+            </div>
+            <div class="line">
+                    <p>
+                        <div>
+                            <label class="left" for="email" > E-mail </label>
+                        </div>
+                        <div>
+                            <input class="right" id="email" type=”text” name=”email” />                        
+                        </div>
+                    </p>
+            </div>
+            <div class="line">
+                <div class="left" style="margin-bottom:10px;">
+                        <label for="work" > Do you or any member of your family work for a market research company? </label>
+                </div>
+                <div class="right normal">
+                        <input type="radio" id="manha" name="work" value="Y">
+                        <label for="manha">Yes</label><br>
+                        <input type="radio" id="noite" name="work" value="N">
+                        <label for="noite">No</label><br>  
+                </div>
+            </div>
+            <div class="line">
+                <div>
+                        <label class="left" for="job-title" > Current Job Title </label>
+                    </div>
+                <div style="margin-bottom:10px;">
+                        <input class="right" id="job-title" type=”text” name=”job-title” />                        
+                </div>
+            </div>
+            <div class="line">
+                    <div style="margin-bottom:10px;">
+                            <label class="left"  for="company" > Name of the company you work for </label>
+                        </div>
+                    <div  style="margin-bottom:10px;">
+                            <input class="right" id="company" type=”text” name=”company” />                        
+                    </div>
+            </div>
+            <div class="line">
+                <div class="left">
+                        <label for="emp-status" > Current Employment Status </label>
+                </div>
+                <div class="right normal" style="margin-bottom:10px;">
+                        <input type="radio" id="full-time" name="emp-status" value="full-time">
+                        <label for="full-time">Full Time</label><br>
+                        <input type="radio" id="part-time" name="emp-status" value="part-time">
+                        <label for="full-time">Part Time</label><br>
+                        <input type="radio" id="freelancer" name="emp-status" value="freelancer">
+                        <label for="full-time">Freelancer</label><br>
+                        <input type="radio" id="student" name="emp-status" value="student">
+                        <label for="full-time">Student</label><br>
+                        <input type="radio" id="not-employed" name="emp-status" value="not-employed">
+                        <label for="full-time">Not Employed</label><br>  
+                </div>
+            </div>
+            <div style="font-weight: bold;">
+                    <div class="left">
+                            <label for="payment" > Current Payment </label>
+                    </div>
+                    <div class="right1 normal">
+                            <input type="radio" id="hourly" name="payment" value="hourly">
+                            <label for="full-time">Paid Hourly</label><br>
+                    </div>
+                    <div class="right2 normal" style="margin-bottom:10px;">
+                            <input type="radio" id="salary" name="payment" value="salary">
+                            <label for="full-time">Salary</label><br>
+                    </div>
+            </div>
+            <p>
+               <div class="left">
+                    <a href="./page2.html" class="bttn"> Next </a>
+               </div>
+               <div class="right">
+                   <p>
+                       Page 1 of 2
+                   </p>
+               </div>
+            </p>
+        </form>
+    </body>
+</html>

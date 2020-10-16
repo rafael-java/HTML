@@ -1,0 +1,83 @@
+.box {
+  width: 280px;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  margin: 10px 0;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.box1 {
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    margin: 10px 0;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+.box:focus {
+  border-color: blue;
+  box-shadow: 0 0 8px 0 blue;
+}
+
+.input .box {
+  padding-left: 50px;
+}
+
+.input .box1 {
+    padding-left: 50px;
+  }
+  
+.input {
+  position: relative;
+}
+
+.input label {
+  position: absolute;
+  left: 0;
+  top: 10;
+  padding: 9px 8px;
+  font-weight: bold;
+}
+
+h1 {
+    font-weight: normal;
+    color:04F5D5;
+    font-family: sans-serif;
+    margin: 0 0 8 0;
+}
+
+h3 {
+    color: blue;
+    font-size:20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button {
+    background-color:black;
+    border-style: solid;
+    border-color: rgba(155,155,155);
+    border-radius: 10px;
+    border-width: thin;
+    font-size: 16px;
+    color: black;
+    padding: 5px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align:right;
+    position:absolute;
+    left:450;
+    top:300;
+    color: white;
+    font-weight:bold;
+}
+
+
+
